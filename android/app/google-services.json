@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793149110683",
+    "project_id": "nutriplant-9f2c2",
+    "storage_bucket": "nutriplant-9f2c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793149110683:android:b7a6cfc0f503cf272fc93e",
+        "android_client_info": {
+          "package_name": "com.example.nutri_plant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCliPCwzUUx69xjhfUQ1mLS2kitwnzqpBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

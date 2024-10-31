@@ -66,7 +66,7 @@ class _ImageUploadScreenState extends State<ImageUploadScreen> {
 
     final request = http.MultipartRequest(
       'POST',
-      Uri.parse('https://f2ab-2405-201-6824-385a-a91d-ed4f-1f2b-ba75.ngrok-free.app/upload'), // Use your Flask API URL
+      Uri.parse('http://10.9.21.22:5000/upload'), // Use your Flask API URL
     );
 
     // Attach the image file to the request
@@ -189,7 +189,7 @@ class _ImageUploadScreenState extends State<ImageUploadScreen> {
                 // Display upload message or prediction result
                 Text(
                   _uploadMessage,
-                  style: GoogleFonts.lato(fontSize: 16, color: Colors.white70, fontWeight: FontWeight.bold),
+                  style: GoogleFonts.lato(fontSize: 16, color: Colors.green.shade800, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 20),
                 // Show "View Diagnosis" button if there's a prediction

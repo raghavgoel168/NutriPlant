@@ -66,17 +66,58 @@ class _MyPlantsScreenState extends State<MyPlantsScreen> {
   }
 
   Future<void> _addPlant() async {
-    PickedFile? image = await _picker.getImage(source: ImageSource.gallery); // or ImageSource.camera
-    if (image != null && image.path.isNotEmpty) {
-      String plantName = await _getPlantNameDialog();
-      setState(() {
-        MyPlantsScreen.plants.add(Plant(name: plantName, imagePath: image.path));
-      });
-      MyPlantsScreen.savePlants(); // Save plants after adding
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Failed to load image')));
-    }
+    // Show a dialog to select either camera or gallery
+    await showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text('Select Image Source'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ListTile(
+                leading: Icon(Icons.camera),
+                title: Text('Camera'),
+                onTap: () async {
+                  Navigator.pop(context); // Close the dialog
+                  PickedFile? image = await _picker.getImage(source: ImageSource.camera);
+                  if (image != null && image.path.isNotEmpty) {
+                    await _processNewPlant(image);
+                  } else {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text('Failed to capture image')));
+                  }
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.photo_library),
+                title: Text('Gallery'),
+                onTap: () async {
+                  Navigator.pop(context); // Close the dialog
+                  PickedFile? image = await _picker.getImage(source: ImageSource.gallery);
+                  if (image != null && image.path.isNotEmpty) {
+                    await _processNewPlant(image);
+                  } else {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text('Failed to load image')));
+                  }
+                },
+              ),
+            ],
+          ),
+        );
+      },
+    );
   }
+
+  Future<void> _processNewPlant(PickedFile image) async {
+    String plantName = await _getPlantNameDialog();
+    setState(() {
+      MyPlantsScreen.plants.add(Plant(name: plantName, imagePath: image.path));
+    });
+    MyPlantsScreen.savePlants(); // Save plants after adding
+  }
+
 
   Future<String> _getPlantNameDialog() async {
     String plantName = '';
