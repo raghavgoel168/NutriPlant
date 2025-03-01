@@ -11,7 +11,16 @@ NutriPlant is an AI-powered platform that helps users diagnose plant diseases an
 - 🛒 **Upcoming:** Plant & product marketplace.
 
 ## 📸 Demo
-*(Add screenshots or a GIF showcasing your app in action!)*
+<img src="https://github.com/user-attachments/assets/99464ce4-048e-410a-a73a-c8b849ba2a76" width="160">
+<img src="https://github.com/user-attachments/assets/b2b20fdb-f198-417d-9fbb-35f26feaa0cf" width="160">
+<img src="https://github.com/user-attachments/assets/30208164-09e1-4f6b-ae17-f267babb1e05" width="160">
+<img src="https://github.com/user-attachments/assets/ff243573-5e63-441a-9d78-a55cddc3e198" width="160">
+<img src="https://github.com/user-attachments/assets/b1b49c12-9ab1-4fd3-a78c-3803faaad5af" width="160">
+
+
+
+
+
 
 ## ⚙️ Technologies Used
 - **Frontend:** Flutter
@@ -58,16 +67,8 @@ For detailed model evaluation, see [RESULTS.md](RESULTS.md).
 ## 🛠 Contributing
 We welcome contributions! Feel free to open an issue or submit a pull request.
 
-## 📜 License
-This project is licensed under the MIT License – see [LICENSE](LICENSE) for details.
 
 ## 🤝 Contact
 For queries, reach out to:
 📧 Email: [raghavgoel168@gmail.com](mailto:raghavgoel168@gmail.com)
 🔗 LinkedIn: [Raghav Goel](https://www.linkedin.com/in/raghavgoel29)
-" > README.md
-
-# Add the file to GitHub
-git add README.md
-git commit -m "Added README documentation"
-git push origin main  # Change "main" to your branch name if needed
