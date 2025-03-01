@@ -65,7 +65,7 @@ The following table highlights some sample test predictions:
 ### 📌 **How to Run the Model Locally**
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/nutriplant.git
+git clone https://github.com/raghavgoel168/NutriPlant.git
 cd nutriplant
 
 # Install dependencies
