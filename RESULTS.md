@@ -34,20 +34,35 @@ NutriPlant is an AI-powered platform that diagnoses plant diseases and nutrient 
 - **Validation Accuracy:** **94.62%**
 
 ## 4️⃣ Model Evaluation
-### 🔍 Confusion Matrix
-To visualize model performance, a confusion matrix was generated (see below for misclassification analysis). The majority of predictions align correctly with ground truth labels, indicating high model precision.
+### 📊 Classification Report
 
-![Confusion Matrix](results/confusion_matrix.png)
+| Class Name | Precision | Recall | F1-Score | Support |
+|------------|------------|--------|----------|---------|
+| Apple___Apple_scab | 0.77 | 0.99 | 0.87 | 504 |
+| Apple___Black_rot | 0.99 | 0.96 | 0.97 | 497 |
+| Apple___Cedar_apple_rust | 0.94 | 0.99 | 0.97 | 440 |
+| Apple___healthy | 0.95 | 0.90 | 0.93 | 502 |
+| Blueberry___healthy | 0.96 | 0.95 | 0.95 | 454 |
+| Cherry_(including_sour)___Powdery_mildew | 0.99 | 0.97 | 0.98 | 421 |
+| Cherry_(including_sour)___healthy | 0.99 | 0.96 | 0.97 | 456 |
+| Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot | 0.89 | 0.94 | 0.91 | 410 |
+| Corn_(maize)___Common_rust_ | 1.00 | 0.99 | 0.99 | 477 |
+| Corn_(maize)___Northern_Leaf_Blight | 0.96 | 0.92 | 0.94 | 477 |
+| Corn_(maize)___healthy | 0.99 | 1.00 | 0.99 | 465 |
+| Grape___Black_rot | 0.95 | 0.97 | 0.96 | 472 |
+| Grape___Esca_(Black_Measles) | 1.00 | 0.95 | 0.98 | 480 |
+| Grape___Leaf_blight_(Isariopsis_Leaf_Spot) | 0.96 | 1.00 | 0.98 | 430 |
+| Grape___healthy | 0.98 | 0.99 | 0.98 | 423 |
+| Orange___Haunglongbing_(Citrus_greening) | 0.98 | 0.98 | 0.98 | 503 |
+| Peach___Bacterial_spot | 0.98 | 0.91 | 0.94 | 459 |
+| Peach___healthy | 0.97 | 0.99 | 0.98 | 432 |
+| Pepper,_bell___Bacterial_spot | 0.96 | 0.87 | 0.91 | 478 |
+| Pepper,_bell___healthy | 0.87 | 0.97 | 0.92 | 497 |
+| Potato___Early_blight | 0.96 | 0.99 | 0.97 | 485 |
+| Potato___Late_blight | 0.95 | 0.87 | 0.91 | 485 |
+| Potato___healthy | 0.98 | 0.95 | 0.96 | 456 |
 
-### 🔥 Sample Predictions
-The following table highlights some sample test predictions:
 
-| Image | Actual Label | Predicted Label | Confidence (%) |
-|-------|-------------|----------------|----------------|
-| ![Leaf1](results/leaf1.jpg) | Healthy | Healthy | 98.5% |
-| ![Leaf2](results/leaf2.jpg) | Bacterial Spot | Bacterial Spot | 96.7% |
-| ![Leaf3](results/leaf3.jpg) | Early Blight | Early Blight | 94.2% |
-| ![Leaf4](results/leaf4.jpg) | Late Blight | Late Blight | 92.8% |
 
 ## 5️⃣ Deployment & Inference Speed
 - **Model Deployed on:** Flask API
