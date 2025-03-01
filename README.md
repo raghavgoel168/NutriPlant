@@ -44,25 +44,26 @@ The AI model was trained on a dataset of plant leaf images using CNN-based archi
 
 For detailed model evaluation, see [RESULTS.md](RESULTS.md).
 
+
 ## 🔧 Installation & Setup
 1. Clone this repository:
-   \`\`\`bash
-   git clone https://github.com/yourusername/NutriPlant.git
+   ```bash
+   git clone https://github.com/raghavgoel168/NutriPlant.git
    cd NutriPlant
-   \`\`\`
+   ```
 2. Install dependencies:
-   \`\`\`bash
-   pip install -r requirements.txt  # For backend
-   flutter pub get  # For frontend
-   \`\`\`
+   ```bash
+   pip install -r requirements.txt  
+   flutter pub get  
+   ```
 3. Run the Flask API:
-   \`\`\`bash
+   ```bash
    python app.py
-   \`\`\`
+   ```
 4. Start the Flutter app:
-   \`\`\`bash
+   ```bash
    flutter run
-   \`\`\`
+   ```
 
 ## 🛠 Contributing
 We welcome contributions! Feel free to open an issue or submit a pull request.
