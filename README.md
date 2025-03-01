@@ -11,11 +11,11 @@ NutriPlant is an AI-powered platform that helps users diagnose plant diseases an
 - 🛒 **Upcoming:** Plant & product marketplace.
 
 ## 📸 Demo
-<img src="https://github.com/user-attachments/assets/99464ce4-048e-410a-a73a-c8b849ba2a76" width="160">
-<img src="https://github.com/user-attachments/assets/b2b20fdb-f198-417d-9fbb-35f26feaa0cf" width="160">
-<img src="https://github.com/user-attachments/assets/30208164-09e1-4f6b-ae17-f267babb1e05" width="160">
-<img src="https://github.com/user-attachments/assets/ff243573-5e63-441a-9d78-a55cddc3e198" width="160">
-<img src="https://github.com/user-attachments/assets/b1b49c12-9ab1-4fd3-a78c-3803faaad5af" width="160">
+<img src="https://github.com/user-attachments/assets/99464ce4-048e-410a-a73a-c8b849ba2a76" width="150">
+<img src="https://github.com/user-attachments/assets/b2b20fdb-f198-417d-9fbb-35f26feaa0cf" width="150">
+<img src="https://github.com/user-attachments/assets/30208164-09e1-4f6b-ae17-f267babb1e05" width="150">
+<img src="https://github.com/user-attachments/assets/ff243573-5e63-441a-9d78-a55cddc3e198" width="150">
+<img src="https://github.com/user-attachments/assets/b1b49c12-9ab1-4fd3-a78c-3803faaad5af" width="150">
 
 
 
