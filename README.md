@@ -26,7 +26,7 @@ NutriPlant is an AI-powered platform that helps users diagnose plant diseases an
 - **Frontend:** Flutter
 - **Backend:** Flask (for AI processing)
 - **AI/ML:** TensorFlow, PyTorch, OpenCV, Hugging Face Transformers, BERT, CNNs
-- **Database:** Firebase, MySQL, MongoDB
+- **Database:** Firebase
 - **Other Tools:** Git, GitHub, Power BI, Pandas, NumPy, Matplotlib
 
 ## 🏗 Model Training & Performance
