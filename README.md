@@ -1,4 +1,4 @@
-# 🌱 NutriPlant – AI-Powered Plant Disease Diagnosi
+# 🌱 NutriPlant – AI-Powered Plant Disease Diagnosis
 
 NutriPlant is an AI-powered platform that helps users diagnose plant diseases and nutrient deficiencies by analyzing leaf images. The app provides accurate predictions and treatment recommendations, making plant care easier for gardeners and farmers.
 
