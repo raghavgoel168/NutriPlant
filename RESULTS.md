@@ -1,4 +1,4 @@
-# NutriPlant Model Training and Evaluation Results
+# NutriPlant Model Training and Evaluation Result
 
 ## 1️⃣ Project Overview
 NutriPlant is an AI-powered platform that diagnoses plant diseases and nutrient deficiencies using deep learning-based image classification. The model is trained on a dataset of plant leaf images and leverages **Convolutional Neural Networks (CNNs)** to classify diseases with high accuracy.
