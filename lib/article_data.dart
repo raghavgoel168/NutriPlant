@@ -9,7 +9,7 @@ final List<Map<String, String>> articles = [
   {
     'title': 'Indoor Plants: Care Tips',
     'image': 'https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3BsYXlcL2M2ZGYwY2E2LWY1YTAtNDAwMS1hZjM2LWE1MTFkZmVjOWE1MS0xMjEwLTY4MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ==',
-    'content': 'Tips for taking care of your indoor plants'
+    'content': 'Tips for taking care of your indoor plants.'
   },
   {
     'title': 'The Best Houseplants for Clean Air',
