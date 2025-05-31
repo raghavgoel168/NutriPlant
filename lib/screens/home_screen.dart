@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
         HomePage(),
         DiagnosisScreen(),
         Center(child: CircularProgressIndicator()), // Loading indicator for Camera screen
-        MyPlantsScreen(), // Ensure MyPlantsScreen is included
+        MyPlantScreen(), // Ensure MyPlantsScreen is included
         AccountScreen(),
       ];
     } else {
@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
         HomePage(),
         DiagnosisScreen(),
         ImageUploadScreen(),
-        MyPlantsScreen(), // Ensure MyPlantsScreen is included
+        MyPlantScreen(), // Ensure MyPlantsScreen is included
         AccountScreen(),
       ];
     }

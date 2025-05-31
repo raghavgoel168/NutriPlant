@@ -34,7 +34,7 @@ class ArticleListScreen extends StatelessWidget {
                     builder: (context) => ArticleDetailsScreen(
                       title: articles[index]['title']!,
                       image: articles[index]['image']!,
-                      content: articles[index]['content'] ?? 'No content available.', article: {},
+                      content: articles[index]['content'] ?? 'No content available.',
                     ),
                   ),
                 );

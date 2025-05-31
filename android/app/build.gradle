@@ -25,7 +25,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace = "com.example.nutri_plant"
-    compileSdkVersion 33  // Fixed SDK version
+    compileSdkVersion 34  // Fixed SDK version
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -39,6 +39,7 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutterVersionCode.toInteger()
         versionName = flutterVersionName
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -54,8 +55,9 @@ flutter {
 
 dependencies {
     implementation platform('com.google.firebase:firebase-bom:33.5.1')
-    implementation 'com.google.firebase:firebase-core'  // Ensure Firebase core is included
+//    implementation 'com.google.firebase:firebase-auth'  // Include Firebase Authentication
+//    // Add other Firebase services as needed, e.g., Firestore, Analytics
 }
-
+//
 // Apply the Google Services plugin after dependencies
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'

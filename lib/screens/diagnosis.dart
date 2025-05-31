@@ -287,9 +287,18 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Diagnosis'),
+        title: Text(
+          'Diagnosis',
+          style: TextStyle(
+            fontWeight: FontWeight.bold, // Bold text style
+            fontSize: 25.0,             // Optional: Adjust font size for better readability
+          ),
+        ),
+        automaticallyImplyLeading: false, // Removes the back button
+        centerTitle: true,                // Centers the title
         backgroundColor: Colors.green,
       ),
+
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

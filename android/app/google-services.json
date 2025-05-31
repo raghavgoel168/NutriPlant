@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "793149110683",
-    "project_id": "nutriplant-9f2c2",
-    "storage_bucket": "nutriplant-9f2c2.firebasestorage.app"
+    "project_number": "12508132495",
+    "project_id": "nutriplant-2b799",
+    "storage_bucket": "nutriplant-2b799.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:793149110683:android:b7a6cfc0f503cf272fc93e",
+        "mobilesdk_app_id": "1:12508132495:android:970697baac0a402eb86cfa",
         "android_client_info": {
           "package_name": "com.example.nutri_plant"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "12508132495-ar4n95rf9q78rulc4qftkukeikgia3j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nutri_plant",
+            "certificate_hash": "ab607b890f00af8d9ad3c28ea60ab91ade4f85fc"
+          }
+        },
+        {
+          "client_id": "12508132495-p0evjpk0d08ons8fs1960k6j2qdb5bpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCliPCwzUUx69xjhfUQ1mLS2kitwnzqpBw"
+          "current_key": "AIzaSyCVREse69piIvxs5nznzjwvm6CJ8YA5YZQ"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12508132495-p0evjpk0d08ons8fs1960k6j2qdb5bpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

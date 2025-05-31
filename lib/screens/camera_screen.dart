@@ -66,7 +66,7 @@ class _ImageUploadScreenState extends State<ImageUploadScreen> {
 
     final request = http.MultipartRequest(
       'POST',
-      Uri.parse('http://10.9.21.22:5000/upload'), // Use your Flask API URL
+      Uri.parse('http://192.168.29.24:5000/upload'), // Use your Flask API URL
     );
 
     // Attach the image file to the request
@@ -124,9 +124,18 @@ class _ImageUploadScreenState extends State<ImageUploadScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Upload Image', style: GoogleFonts.lato(fontWeight: FontWeight.bold)),
-        backgroundColor: Colors.green, // Nature-inspired color
+        title: Text(
+          'Upload Image',
+          style: GoogleFonts.lato(
+            fontWeight: FontWeight.bold, // Bold text style
+            fontSize: 25.0,             // Optional: Adjust font size for better readability
+          ),
+        ),
+        automaticallyImplyLeading: false, // Removes the back button
+        centerTitle: true,                // Centers the title
+        backgroundColor: Colors.green,    // Nature-inspired color
       ),
+
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -147,7 +156,7 @@ class _ImageUploadScreenState extends State<ImageUploadScreen> {
                   child: Image.file(
                     _image!,
                     width: 315,
-                    height: 315,
+                    height: 350,
                     fit: BoxFit.cover,
                   ),
                 )
